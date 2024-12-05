@@ -7,7 +7,7 @@ all:
 	arm-none-eabi-objcopy -O binary main.elf main.bin
 
 emulate:
-	qemu-system-arm -S -M stm32vldiscovery -nographic -kernel main.bin -gdb tcp::1234
+	qemu-system-arm -S -M lm3s811evb -nographic -kernel main.bin -gdb tcp::1234
 
 debug:
 	arm-none-eabi-gdb -silent -w main.elf -ex "target remote tcp::1234" -ex "break main"
