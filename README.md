@@ -1,5 +1,5 @@
 # Bare metal ARM Cortex-M3
-This repo contains bare metal code exmples for ARM Cortex-M3 processor.
+This repo contains bare metal code examples for ARM Cortex-M3 processor.
 
 ## Prerequisites
 To get started, make sure the following tools are installed on your system. The instructions below are specific to macOS using homebrew package manager.
