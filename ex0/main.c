@@ -1,4 +1,4 @@
-int x = 1;
+const int x = 1;
 
 int main(void) {
     int z = x + 1;
